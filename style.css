@@ -1,0 +1,359 @@
+
+
+body{
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0px;
+  margin: 0px;
+  background-color: #f4f4f4;
+}
+/*global*/
+.container{
+	width: 80%
+	margin:auto;
+	overflow: hidden;
+
+}
+
+header{
+	background-color:white;
+	margin-top: 50px
+	padding-top: 30px;
+	padding-bottom: 0px;
+	position: fixed;
+	min-height: 70px;
+	top:0px;
+	width: 100%;
+	border-bottom: 1px solid whitesmoke;
+	
+}
+header a{
+	color: black;
+	text-decoration:none;
+	font-size: 16px;
+
+}
+header li{
+	width: 100px;
+	float: left;
+	display: inline;
+	padding:5px;
+	margin-top: 15px;
+	position: center;
+
+
+}
+header #branding{
+	float: left;
+}
+header #branding h1{
+	padding-left: 10px;
+	margin-left: 5px;
+	padding-right: 10px;
+	color: black;
+	border:2px solid black;
+	background-color: white;
+	font-family: segoe script;
+	font-style:italic;
+	font-size: auto;
+
+}
+header nav{
+	float: right; 
+}
+ .active a{
+   color:dodgerblue;
+ }
+
+ul{
+	padding: 0;
+	list-style: none;
+}
+
+ 
+ #showcase{
+   
+   background-repeat:no-repeat; 
+   background-size: cover;
+   	padding-left: 10px;
+	margin-left: 5px;
+   text-align: center;
+   min-height: 500px;
+   margin-top: 70px;
+   color: white;
+   overflow: hidden;
+   animation: animate 40s ease-in-out infinite;
+   object-position: center;
+   background-image: url("../Art/stool.jpg");
+
+   object-fit: cover;
+
+ }
+ @keyframes animate{
+ 	from{top:0px;}
+ 	to{top: 200px;}
+ 	0%,100% {
+ 		background-image: url("../Art/stool.jpg");
+
+ 	}
+ 	25%{
+ 		background-image: url("../Art/designer.png");
+ 	}
+ 	50%{
+ 		background-image: url("../Art/pods.png");
+ 	}
+ 	75%{
+ 		background-image: url("../Art/pretty.jpg");
+ 	}
+
+ }
+ #showcase h1{
+ 		color: white;
+ 		top: 50%;
+ 		left: 50%;
+  	padding-top: 40px;
+  }
+  #showcase p{
+  	color: white;
+  	font-size: 15px;
+  	position: center;
+  }
+  #search{
+  	background-color: #35424a;
+  	color: white;
+  	padding: 15px;
+  }
+  #search h2{
+  	float: left;
+
+  }
+#search form{
+	float: right;
+	margin-top: 15px;
+
+}
+#search input[type="email"]{
+   padding: 5px;
+   width: 250px;
+}
+
+.p-box h2{
+	position: absolute;
+	top: 40px;
+
+}
+.heads-1{
+	width: 33.3%;
+	float: left;
+	text-align:center;
+	padding: 10px;
+}
+ 
+ 
+ .button-1{
+ 	color: white;
+ 	background-color: orange;
+ 	border: 0;
+ 	height: 30px;
+ 	padding-right: 20px;
+ 	padding-left: 20px;
+
+ 	}
+ #boxes{
+ 	margin-top: 0px;
+ }
+ #boxes .box{
+ 	float: left;
+ 	width: 20%;
+ 	padding: 20px;
+
+ }
+  #boxes.box img{
+  	width: 90px;
+  }
+  .box img{
+     width: 60px; height: 55px;
+
+  }
+  .box p{
+  	float: left;
+  }
+
+  footer{
+  	padding: 20px;
+  	color: white;
+  	background-color: black;
+  	text-align: center;
+  	height: 100px;
+  }
+  	
+  
+  header a:hover{
+	color:skyblue;
+	border-radius:1px;
+	padding: 5px;
+	border: 1px solid whitesmoke;
+	
+}
+  header #branding h1:hover{
+  	color:gray;
+  	border-radius:1px;
+  	border:1px solid gray;
+  }
+  .box{
+  	
+  	margin-top: 10px;
+  	margin-bottom: 20px;
+  	height: 200px;
+  }
+  .box:hover h3{
+  	border-radius:1px;
+  	color:red;
+  }
+  #search{
+  	padding-left: 10px;
+  	margin-left: 5px;
+  }
+  
+
+
+
+
+/*The about tab*/
+header
+
+  .active-1 a{
+  	color: dodgerblue;
+  }
+ 
+ #show{
+ 	padding-top: 70px;
+ 	position: relative;
+    
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+ }
+
+#show.vida{
+	 position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: cover;
+}
+
+
+
+/*THIS IS YOUTUBE FILE*/
+.active-5 a{
+  color: dodgerblue;
+}
+#kato{
+	margin-left: 3px;
+	padding-left: 3px;
+}
+
+#iframe{
+	min-width: 200px
+	min-height:100px;
+    margin-left: 3px;
+    padding-left: 3px;
+    padding-top: 90px;
+    overflow: hidden;
+    outline: none;
+
+}
+#iframe.tube{
+	width: 1000px;
+}
+
+
+
+
+/*Art Tab*/
+#images{
+	padding-top: 100px;
+	padding-left: 5px;
+	margin: 10px;
+
+}
+
+.list img{
+	height: 200px;
+	width: 240px;
+	padding: 5px;
+}
+
+
+
+/*Music Tab*/
+.active-7 a{
+	color:dodgerblue;
+}
+
+
+
+
+
+/*links Tab*/
+.active-6 a{
+	color: dodgerblue;
+}
+#links{
+ height: 400px;
+ padding-top:100px;
+ padding-bottom: 100px;
+ background: none;
+ background-color:white;
+
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+}
+.sports {
+	cursor: pointer;
+	background: none;
+	font-family: montserrat;
+	transition: 0.8s;
+
+
+}
+.total,.trendz,.buffer,.ripple{
+	color: black;
+	height: 30px;
+	font-size: 13px;
+	width: 100%;
+
+
+}
+.ripple:hover,.total:hover,.trendz:hover,.buffer:hover{
+	color: white;
+	background: dodgerblue;
+	border: 2px dodgerblue solid;
+}
+
+.btn1{
+	border: 1px lightgray solid;
+	box-sizing: border-box;
+	float: left;
+	width: 24%;
+    color: black;
+    margin: 5px;
+    height: 100%;
+}
+.btn1 img{
+  width: 100%;
+}
+
+
+
+
+
+
+ 
+	
+
